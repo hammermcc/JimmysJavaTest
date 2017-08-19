@@ -18,6 +18,12 @@ public class JavaDevelopmentTestTest extends TestCase {
 		assertEquals("Passing the value 5 does not match", "Sello,", output);
 	}
 	
+	public void testNardo () {
+		String output = JavaDevelopmentTest.textToOutput(7);
+		
+		assertEquals("Passing the value 7 does not match", "Nardo,", output);
+	}
+	
 	public void testBaroSello () {
 		String output = JavaDevelopmentTest.textToOutput(15);
 		
