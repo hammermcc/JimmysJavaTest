@@ -17,7 +17,7 @@ public class JavaDevelopmentTest {
 		}
 	}
 	
-	private static String textToOutput (int i) {
+	public static String textToOutput (int i) {
 		String outputText = "" + i;
 		if ((i % FIRST_DIVISOR == 0) && (i % SECOND_DIVISOR == 0)) {
 			outputText = "BaroSello";
