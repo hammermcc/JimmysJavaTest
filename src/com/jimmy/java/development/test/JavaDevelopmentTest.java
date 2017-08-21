@@ -37,11 +37,11 @@ public class JavaDevelopmentTest {
 		if ((i % FIRST_DIVISOR == 0) && (i % SECOND_DIVISOR == 0)) {
 			outputText = ANSI_BLUE + "BaroSello" + ANSI_RESET;
 		} else if (i % THIRD_DIVISOR == 0) {
-			outputText = ANSI_CYAN + "Nardo" + ANSI_RESET;
+			//outputText = ANSI_CYAN + "Nardo" + ANSI_RESET;
 		} else if (i % FIRST_DIVISOR == 0) {
-			outputText = ANSI_GREEN + "Baro" + ANSI_RESET;
+			//outputText = ANSI_GREEN + "Baro" + ANSI_RESET;
 		} else if (i % SECOND_DIVISOR == 0) {
-			outputText = ANSI_RED + "Sello" + ANSI_RESET;
+			//outputText = ANSI_RED + "Sello" + ANSI_RESET;
 		}
 		return outputText + ",";
 	}
